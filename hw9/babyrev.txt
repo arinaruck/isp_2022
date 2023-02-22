@@ -1,0 +1,5 @@
+flag = "MOBISEC{ThIs_iS_A_ReAlLy_bAsIc_rEv}"
+
+new StringBuilder(flag).reverse().toString().toLowerCase().substring(1).startsWith(ctx.getString(0x7f0b0028))
+bam(flag.toUpperCase().substring(18, 24)).equals("ERNYYL") 
+flag.toLowerCase().charAt(16) == 'a' && flag.charAt(16) == flag.charAt(26) && flag.toUpperCase().charAt(25) == flag.toUpperCase().charAt(26) + 1
